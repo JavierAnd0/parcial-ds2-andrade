@@ -10,7 +10,7 @@ try:
     database = client.get_database("matriculapp")
     semanas = database.get_collection("semana")
 
-    results = semanas.find({}).sort("numeroSemana", pymongo.ASCENDING).limit(6)
+    results = semanas.find({}).sort("numeroSemana", pymongo.ASCENDING).limit(8)
 
     defectos = []
     for semana in results:

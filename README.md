@@ -46,3 +46,11 @@ Campos con tipo de dato
 
 Interpretacion
 
+Pregunta: ¿cuántos defectos quedarían sin descubrir si se libera hoy? ¿En qué semana se
+llegaría al 95 % (t = ln 20 / b)
+
+
+• Prueba sugerida: goel(0, a, b) debe valer 0
+
+Pregunta
+Con los datos de las semanas de prueba que se dieron en la tabla y despues de realizado el modelo, se puede concluir que segun el modelo Goel matriculapp tiene 198 defectos, hasta la semana 8 se encontraron 139 defectos, por lo que en caso de liberarse "hoy" quedarian 59 defectos sin descubrir, Para llegar al 95% tendria que probar hasta la semana 20, por lo que NO se recomienda liberar la version, todavia tiene un gran porcentaje de error faltante. 
